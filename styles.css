@@ -1,0 +1,305 @@
+body{
+    background: #E5E5E5;
+}
+
+.position-logo{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.btn{
+    width: 320px;
+    height: 67px;
+    border-radius: 24px;
+    text-align: center !important; 
+}
+
+.btns-position{
+    position: absolute;
+    left: 15%;
+    top: 72%;
+}
+
+.btn-primary{
+    background: #0A3871;
+    color: white;
+}
+
+.btn-secondary{
+    /*background: #D8DFE8;*/
+    background: #E5E5E5;
+    color: #0A3871;
+}
+
+.btn-copiar{
+    background: #FFFFFF;
+    color: #0A3871;
+    border-color: #0A3871;
+}
+
+.clarification{
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
+    margin-left: 11%;
+    margin-top: 28%;
+}
+
+.clarification-icon{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 28%;
+}
+
+.show-message{
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    left: 70%;
+    top: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.box-text{
+    position: absolute;
+    left: 10%;
+    top: 22%;
+    width: 900px;
+    height: 400px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.footer{
+    background: #0A3871;
+    margin-top: 43%;
+    margin-bottom: -18px
+}
+
+.firma{
+    color: white;
+    text-align: center;
+}
+
+.munheco{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 37px;
+}
+
+.no-mensaje{
+    width: 336px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 500px;
+}
+
+.mensaje-peticion{
+    width: 336px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    margin-left: 30px;
+    margin-top: 570px;
+}
+
+.txtarea-encriptado{
+    position: absolute;
+    align-content: center;
+    width: 360px;
+    left: 71%;
+    top: 8%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    min-height: 585px;
+}
+
+.position-btn-copiar{
+    position: absolute;
+    top: 74%;
+    right: 11%;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    
+    .clarification{
+        position: absolute;
+        font-weight: 400;
+        font-size: 12px;
+        color: #495057;
+        opacity: 0.8;
+        margin-left: 13%;
+        margin-top: 77%;
+    }
+
+    .clarification-icon{
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 77%;
+    }
+
+    .show-message {
+        position: absolute;
+        width: 652px;
+        height: 211px;
+        left: 10%;
+        top: 84%;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .no-mensaje {
+        width: 351px;
+        height: 35px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+        position: absolute;
+        margin-left: 140px;
+        margin-top: 79px;
+    }
+
+    .mensaje-peticion {
+        width: 391px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #495057;
+        margin-left: 121px;
+        margin-top: 122px;
+    }
+
+    .munheco{
+        display: none !important;
+    }
+
+    .box-text{
+        width: 671px;
+        height: 452px;
+    }
+
+    .position-logo{
+        margin-top: 9%;
+    }
+
+    .btns-position{
+        left: 10%;
+        top: 73%;
+    }
+
+    .firma{
+        display: none !important;
+    }
+
+    .txtarea-encriptado{
+        min-height: 85px;
+        width: 621px;
+        left: 12%;
+        top: 85%;
+        height: 109px;
+    }
+
+    .position-btn-copiar {
+        position: absolute;
+        top: 96%;
+        right: 13%;
+        width: 592px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+    .show-message{
+        width: 362px;
+        height: 312px;
+        left: 7%;
+        top: 109%;
+    }
+
+    .box-text{
+        width: 340px;
+    }
+
+    .btns-position{
+        left: 13%;
+        top: 81%;
+    }
+
+    .clarification{
+        margin-left: 16%;
+        margin-top: 132%;
+    }
+
+    .clarification-icon{
+        margin-top: 132%;
+    }
+
+    .firma{
+        display: none !important;
+    }
+
+    .btn{
+        margin-top: 1rem !important;
+    }
+
+    .munheco{
+        display: none !important;
+    }
+
+    .no-mensaje{
+        margin-left: 14px;
+        margin-top: 85px;
+    }
+
+    .mensaje-peticion{
+        margin-left: 51px;
+        margin-top: 166px;
+        width: 257px;
+    }
+
+    .position-btn-copiar{
+        top: 133%;
+        left: 54px;
+    }
+
+    .txtarea-encriptado{
+        width: 323px;
+        left: 12%;
+        top: 111%;
+        min-height: 200px;
+        height: 200px;
+    }
+
+}
